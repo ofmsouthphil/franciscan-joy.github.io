@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ofmsouthphil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="photos/logo.png" alt="OFM South Phil Logo" class="logo">
+                PSAPP Moments
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <!-- Headline Left -->
+                <div class="col-lg-6 col-12">
+                    <div class="hero-headline text-end text-white">
+                        <img src="photos/title.png" alt="title" style="width: 100%; height: auto;" class="img-fluid mb-3" loading="lazy">
+                        <h3 class="lead">Temporary profession of vows in the Order of Friars Minor is a sacred promise to live the Gospel in the spirit of 
+                            St. Francis through poverty, chastity, and obedience for one year, renewable each year. It is a time of grace where the 
+                            brother deepens his life of prayer, fraternity, and service as he continues to discern God’s call to a lifelong commitment.</h3>
+                    </div>
+                </div>
+                <!-- Image Right -->
+                <div class="col-lg-6 col-12 d-flex justify-content-lg-end justify-content-center">
+                    <img src="photos/hero.png" alt="Hero Image" class="hero-img img-fluid" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- About Section -->
+    <section id="about" class="py-3 about-section">
+        <div class="container">
+            <h2 class="text-white text-center mb-5 about-title">About</h2>
+            <div class="about-content-wrapper p-4 rounded-3 shadow-sm">
+                <div class="row align-items-center">
+                    <div class="col-md-4 col-12 mb-1 mb-md-0">
+                        <div class="about-image-wrapper">
+                            <img src="photos/IMG_1189.JPG" alt="About Image" class="gallery-img img-fluid" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-12">
+                        
+                        <p class="text-white lead about-description">Welcome to the official photography portfolio of the Province of San Antonio de Padua – Philippines. 
+                            Here, we capture not just images, but stories—moments of grace, brotherhood, and the sacred rhythm of Franciscan life. <br><br> Rooted in the charism of 
+                            St. Francis of Assisi, our mission is to visually document the journey of faith lived out in simplicity, fraternity, and joyful service. 
+                            <br><br>Each frame reveals the quiet beauty of daily life as a friar, the tenderness of prayer, and the vibrant encounters with the people we serve.
+                            Through these images, we invite you to witness the profound mystery of God made visible in ordinary moments—moments where heaven touches earth.
+                            <br><br>
+                            "Preach the Gospel at all times; use visuals when necessary."
+                            — (a modern Franciscan twist)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="faded">
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-3 contact-section">
+        <div class="container">
+            <h2 class="text-center text-white mb-5">Contact</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12 d-flex justify-content-lg-end justify-content-center">
+                    <img src="photos/contact-illustration.png" alt="Contact Illustration" class="contact-img img-fluid" loading="lazy">
+                </div>
+                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="card bg-dark text-white border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <form action="mailto:johnarielofm@gmail.com" method="post" enctype="text/plain">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control contact-input" id="name" name="name" required placeholder="Your Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control contact-input" id="email" name="email" required placeholder="Your Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control contact-input" id="subject" name="subject" required placeholder="Subject">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control contact-input" id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <hr class="faded">
+
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p>© 2025 Br. John Ariel Rullan, OFM. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
