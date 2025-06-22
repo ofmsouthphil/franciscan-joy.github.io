@@ -21,29 +21,30 @@ document.addEventListener('DOMContentLoaded', () => {
         const gallery = document.getElementById('gallery-images');
         if (gallery) {
             const images = [
-                "IMG_1313.PNG", "IMG_1315.PNG", "IMG_1312.PNG", "IMG_1316.PNG", "IMG_1317.PNG", "IMG_1318.PNG",
-                "IMG_1319.PNG", "IMG_1320.PNG", "IMG_1321.PNG", "IMG_1322.PNG", "IMG_1160.PNG", "IMG_1161.PNG",
-                "IMG_1162.PNG", "IMG_1163.PNG", "IMG_1169.PNG", "IMG_1170.PNG", "IMG_1171.PNG", "IMG_1172.PNG",
-                "IMG_1173.PNG", "IMG_1174.PNG", "IMG_1185.PNG", "IMG_1186.PNG", "IMG_1189.PNG", "IMG_1190.PNG",
-                "IMG_1191.PNG", "IMG_1194.PNG", "IMG_1195.PNG", "IMG_1196.PNG", "IMG_1197.PNG", "IMG_1198.PNG",
-                "IMG_1199.PNG", "IMG_1200.PNG", "IMG_1201.PNG", "IMG_1202.PNG", "IMG_1203.PNG", "IMG_1204.PNG",
-                "IMG_1205.PNG", "IMG_1206.PNG", "IMG_1207.PNG", "IMG_1208.PNG", "IMG_1209.PNG", "IMG_1210.PNG",
-                "IMG_1211.PNG", "IMG_1212.PNG", "IMG_1213.PNG", "IMG_1214.PNG", "IMG_1215.PNG", "IMG_1216.PNG",
-                "IMG_1217.PNG", "IMG_1218.PNG", "IMG_1219.PNG", "IMG_1220.PNG", "IMG_1221.PNG", "IMG_1222.PNG",
-                "IMG_1223.PNG", "IMG_1224.PNG", "IMG_1225.PNG", "IMG_1226.PNG", "IMG_1227.PNG", "IMG_1228.PNG",
-                "IMG_1229.PNG", "IMG_1230.PNG", "IMG_1231.PNG", "IMG_1232.PNG", "IMG_1233.PNG", "IMG_1234.PNG",
-                "IMG_1235.PNG", "IMG_1236.PNG", "IMG_1237.PNG", "IMG_1241.PNG", "IMG_1242.PNG", "IMG_1243.PNG",
-                "IMG_1244.PNG", "IMG_1245.PNG", "IMG_1246.PNG", "IMG_1248.PNG", "IMG_1249.PNG", "IMG_1250.PNG",
-                "IMG_1251.PNG", "IMG_1252.PNG", "IMG_1253.PNG", "IMG_1254.PNG", "IMG_1255.PNG", "IMG_1256.PNG",
-                "IMG_1257.PNG", "IMG_1258.PNG", "IMG_1259.PNG", "IMG_1260.PNG", "IMG_1261.PNG", "IMG_1265.PNG",
-                "IMG_1266.PNG", "IMG_1267.PNG", "IMG_1268.PNG", "IMG_1269.PNG", "IMG_1270.PNG", "IMG_1271.PNG",
-                "IMG_1272.PNG", "IMG_1274.PNG", "IMG_1275.PNG", "IMG_1276.PNG", "IMG_1277.PNG",
-                "IMG_1278.PNG", "IMG_1279.PNG", "IMG_1280.PNG", "IMG_1281.PNG", "IMG_1282.PNG", "IMG_1283.PNG",
-                "IMG_1284.PNG", "IMG_1285.PNG", "IMG_1286.PNG", "IMG_1287.PNG", "IMG_1288.PNG", "IMG_1289.PNG",
-                "IMG_1290.PNG", "IMG_1291.PNG", "IMG_1292.PNG", "IMG_1293.PNG", "IMG_1294.PNG", "IMG_1295.PNG",
-                "IMG_1296.PNG", "IMG_1297.PNG", "IMG_1298.PNG", "IMG_1299.PNG", "IMG_1300.PNG", "IMG_1301.PNG",
-                "IMG_1302.PNG", "IMG_1303.PNG", "IMG_1304.PNG", "IMG_1305.PNG", "IMG_1306.PNG", "IMG_1309.PNG",
-                "IMG_1310.PNG", "IMG_1311.PNG"
+                "IMG_1313.png", "IMG_1315.png", "IMG_1312.png", "IMG_1316.png", "IMG_1317.png", "IMG_1318.png",
+                "IMG_1319.png", "IMG_1320.png", "IMG_1321.png", "IMG_1322.png", "IMG_1160.png", "IMG_1161.png",
+                "IMG_1162.png", "IMG_1163.png", "IMG_1169.png", "IMG_1170.png", "IMG_1171.png", "IMG_1172.png",
+                "IMG_1173.png", "IMG_1174.png", "IMG_1185.png", "IMG_1186.png", "IMG_1189.png", "IMG_1190.png",
+                "IMG_1191.png", "IMG_1194.png", "IMG_1195.png", "IMG_1196.png", "IMG_1197.png", "IMG_1198.png",
+                "IMG_1199.png", "IMG_1200.png", "IMG_1201.png", "IMG_1202.png", "IMG_1203.png", "IMG_1204.png",
+                "IMG_1205.png", "IMG_1206.png", "IMG_1207.png", "IMG_1208.png", "IMG_1209.png", "IMG_1210.png",
+                "IMG_1211.png", "IMG_1212.png", "IMG_1213.png", "IMG_1214.png", "IMG_1215.png", "IMG_1216.png",
+                "IMG_1217.png", "IMG_1218.png", "IMG_1219.png", "IMG_1220.png", "IMG_1221.png", "IMG_1222.png",
+                "IMG_1223.png", "IMG_1224.png", "IMG_1225.png", "IMG_1226.png", "IMG_1227.png", "IMG_1228.png",
+                "IMG_1229.png", "IMG_1230.png", "IMG_1231.png", "IMG_1232.png", "IMG_1233.png", "IMG_1234.png",
+                "IMG_1235.png", "IMG_1236.png", "IMG_1237.png", "IMG_1241.png", "IMG_1242.png", "IMG_1243.png",
+                "IMG_1244.png", "IMG_1245.png", "IMG_1246.png", "IMG_1248.png", "IMG_1249.png", "IMG_1250.png",
+                "IMG_1251.png", "IMG_1252.png", "IMG_1253.png", "IMG_1254.png", "IMG_1255.png", "IMG_1256.png",
+                "IMG_1257.png", "IMG_1258.png", "IMG_1259.png", "IMG_1260.png", "IMG_1261.png", "IMG_1265.png",
+                "IMG_1266.png", "IMG_1267.png", "IMG_1268.png", "IMG_1269.png", "IMG_1270.png", "IMG_1271.png",
+                "IMG_1272.png", "IMG_1274.png", "IMG_1275.png", "IMG_1276.png", "IMG_1277.png",
+                "IMG_1278.png", "IMG_1279.png", "IMG_1280.png", "IMG_1281.png", "IMG_1282.png", "IMG_1283.png",
+                "IMG_1284.png", "IMG_1285.png", "IMG_1286.png", "IMG_1287.png", "IMG_1288.png", "IMG_1289.png",
+                "IMG_1290.png", "IMG_1291.png", "IMG_1292.png", "IMG_1293.png", "IMG_1294.png", "IMG_1295.png",
+                "IMG_1296.png", "IMG_1297.png", "IMG_1298.png", "IMG_1299.png", "IMG_1300.png", "IMG_1301.png",
+                "IMG_1302.png", "IMG_1303.png", "IMG_1304.png", "IMG_1305.png", "IMG_1306.png", "IMG_1309.png",
+                "IMG_1310.png", "IMG_1311.png"
+
 
             ];
             images.forEach(img => heartCounts[img] = 0);
